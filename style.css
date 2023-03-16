@@ -137,7 +137,7 @@ td {
 }
 
 th {
-  background-color: #f6d399;
+  background-color: #ede922;
   text-align: center;
 
 }
@@ -150,5 +150,5 @@ td {
 }
 
 td:nth-child(even) {
-  background-color: #ed802c;
+  background-color: #ede922;
 }
