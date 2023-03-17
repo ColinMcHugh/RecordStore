@@ -105,6 +105,8 @@ body {
   padding: 30px;
   width: 75%;
   margin: 50px;
+  max-width: 600px;
+  min-width: fit-content;
 
 }
 
