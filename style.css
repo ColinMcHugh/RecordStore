@@ -12,10 +12,15 @@ h1 {
   justify-content: center;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
+}
+
 .grid-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: 600px 600px;
+  grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
   padding: 5px;
   margin: 100px;
 }
@@ -27,7 +32,7 @@ h1 {
 }
 
 .grid-item {
-  background-color: #ede922;
+  background-color: #eda32c;
   padding: 10px;
   font-size: 30px;
   text-align: center;
@@ -79,17 +84,11 @@ body {
   flex-flow: row;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
 .row2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 3 / span 9;
+
 
 }
 
@@ -127,6 +126,7 @@ body {
 .carousel {
   width: 40%;
   height: 40%;
+  
 }
 
 table,
